@@ -4,7 +4,8 @@ public PImage imagen;
 public PVector hormiga;
 
 public void beru1(){
-  imagen=loadImage("beru");
+  imagen=loadImage("beru.png");
+  image (imagen,30,30,100,100);
   imageMode(CENTER);
   /*image(imagen,100,100);*/
 }
@@ -12,8 +13,8 @@ public void beru1(){
   imageMode(CENTER);
   image(imagen,100,100);
 }*/
-public void draw(){
+/*public void draw(){
   beru1();
   image(imagen,100,100);
-}
+}*/
 }

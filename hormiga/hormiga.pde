@@ -1,11 +1,13 @@
 PImage personaje;
-int ubicacion=20;
+int ubicacion=200;
+PImage secundario;
 
 void setup(){
  size(600,600);
- personaje=loadImage("igris.jpg");
+ personaje=loadImage("igris_sin_fondo.jpg");
+ 
 }
 
 void draw(){
- image(personaje,0,0); 
+ image(personaje,ubicacion,ubicacion,width-ubicacion*2,height-ubicacion*2); 
 }

@@ -1,7 +1,7 @@
 beru hormiga;
 public void setup()
 {
-  size(400,400);
+  size(800,800);
   /*hormiga = new PVector;*/
 }
 /*public void draw()
