@@ -1,12 +1,13 @@
-beru beru;
+beru hormiga;
 public void setup()
 {
   size(400,400);
-  hormiga= new PVector();
+  /*hormiga = new PVector;*/
 }
-public void draw()
+/*public void draw()
 {
- dibujar();
- 
-}
-}
+  size(200,200);
+  beru1();
+  dibujar();
+  
+ */
