@@ -18,7 +18,7 @@ void draw(){
   tint(pintar);
  image(fondo,0,0,width,height);
  noTint();
- image(personaje,mouseX,mouseY,width-ubicacion*2,height-ubicacion*2);
+ image(personaje,mouseX-100,mouseY-100,width-ubicacion*2,height-ubicacion*2);
  /*image(personaje,ubicacion,ubicacion,width-ubicacion*2,height-ubicacion*2);*/
  image(secundario,ubicacion-10,ubicacion-10,width-ubicacion*4,height-ubicacion*4);
  textSize(30);
