@@ -24,5 +24,5 @@ void draw(){
  textSize(30);
  fill(255,100);
  textAlign(CENTER);
- text("igris",ubicacion-20,ubicacion-20);
+ text("igris",mouseX,mouseY-100);
 }
