@@ -23,6 +23,7 @@ void draw(){
 void keyPressed(){
   if( player.isPlaying()){   
    player.pause();  //lo mantiene en pausa y lo pone en pausa
+   
   }
   else{
   player.play();   //
